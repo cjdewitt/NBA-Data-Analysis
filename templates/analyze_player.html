@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ Analyze_Player }}</title>
+</head>
+<body>
+    
+    <form action="/analyze_player" method="POST">
+        <p>This is the graph for {{selected_player}}:</p>
+        <p>
+            <img src="data:image/png;base64,{{ fig }}" />
+        </p>
+
+    </form>
+
+ </body>
+</html> 
+
+
+
